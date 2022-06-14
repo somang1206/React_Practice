@@ -1,0 +1,51 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+    a{text-decoration : none;}
+    address{font-style:normal;}
+
+
+    
+    .intro_logo{
+        margin-top: 3%;
+    }
+
+    .int_txt2{
+        line-height: 2em;
+    }
+
+    .txt2_white{
+        line-height: 2em;
+    }
+
+    #roadmap .roadmap_area .map_box p{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    @media screen and (max-width:1024px){
+        .intro_logo{
+            margin-top: 7%;
+        }
+
+        .txt2_white{
+            margin-top: 4%;
+        }
+    }
+
+
+    @media screen and (max-width:767px){
+        .intro_logo{
+            margin-top: 11%;
+        }
+
+        .intro1_txt{
+            margin-top: 2%;
+        }
+    }
+
+
+
+    @media screen and (max-width:576px) {
+        .int_txt1 br{
+            display: none;
+        }
+    }
